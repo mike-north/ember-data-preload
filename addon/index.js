@@ -13,7 +13,9 @@ function preloadAll(records, toPreload) {
       case 'object':
         const properties = Object.keys(toPreload);
         return RSVP.all(properties.map((p) => {
-          return RSVP.all(records.map((record) => record.get(p))).then((data) => {
+          return RSVP.all(records.map((record) => {
+            return record.get(p);
+          })).then((data) => {
             const subRecords = data.reduce((prev, cur) => prev.concat(cur.toArray()), []);
             return preloadAll(subRecords, toPreload[p]);
           });
@@ -26,7 +28,15 @@ function preloadAll(records, toPreload) {
 }
 
 function preload(thing, toPreload) {
-  return Ember.isArray(thing) ? preloadAll(thing, toPreload) : preloadRecord(thing, toPreload);
+  if (thing.then) {
+    return thing.then(() => {
+      return Ember.isArray(thing) ? preloadAll(thing, toPreload) : preloadRecord(thing, toPreload);
+    });
+  }
+  else {
+    return Ember.isArray(thing) ? preloadAll(thing, toPreload) : preloadRecord(thing, toPreload);
+  }
+
 }
 
 export default preload;
