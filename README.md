@@ -50,6 +50,25 @@ export default Ember.Route.extend({
 ```
 
 
+Particularly when relationship hierarchies are deep, this can be particularly time-saving
+
+```js
+import preload from 'ember-data-preload';
+
+export default Ember.Route.extend({
+  model() {
+    return preload(this.store.findAll('country'), {
+      city: {
+        neighborhood: {
+          street: 'house'
+        }
+      }
+    });
+  }
+});
+
+```
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
