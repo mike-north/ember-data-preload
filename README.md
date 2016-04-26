@@ -1,4 +1,5 @@
-# ember-data-preload [![Build Status](https://travis-ci.org/levanto-financial/ember-data-preload.svg?branch=master)](https://travis-ci.org/levanto-financial/ember-data-preload)
+# ember-data-preload [![Build Status](https://travis-ci.org/levanto-financial/ember-data-preload.svg?branch=master)](https://travis-ci.org/levanto-financial/ember-data-preload) [![Ember Observer Score](https://emberobserver.com/badges/ember-data-preload.svg)](https://emberobserver.com/addons/ember-data-preload)
+
 
 # Why?
 Preloading deeply nested relationships is possible w/ ember-data, but it can be a little messy
