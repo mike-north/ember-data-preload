@@ -1,8 +1,9 @@
 import DS from 'ember-data';
 
-const { attr, hasMany }  = DS;
+const { attr, belongsTo, hasMany }  = DS;
 
 export default DS.Model.extend({
   name: attr('string'),
-  cities: hasMany('city')
+  capital: belongsTo('city', {inverse: 'capitalOf'}),
+  cities: hasMany('city', {inverse: 'country'})
 });

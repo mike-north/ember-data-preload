@@ -22,7 +22,7 @@ test('visiting /', function(assert) {
 
   server.get('/countries', function() {
     assert.ok(true, 'Countries requested');
-    return json({countries: [{id: 1, name: 'USA', cities: [1, 2]}]});
+    return json({countries: [{id: 1, name: 'USA', cities: [1, 2], capital: 1}]});
   });
 
   server.get('/cities', function() {
@@ -36,18 +36,27 @@ test('visiting /', function(assert) {
   server.get('/neighborhoods', function() {
     assert.ok(true, 'Neighborhoods requested');
     return json({neighborhoods: [
-      {city: 1, id: 1, name: 'Adams Morgan', streets: [1, 2]},
-      {city: 2, id: 2, name: 'Tenderloin', streets: [3]},
-      {city: 2, id: 3, name: 'Financial District ', streets: []}
+      {city: 1, id: 1, name: 'Adams Morgan', streets: [1, 2], parks: [1, 2]},
+      {city: 2, id: 2, name: 'Tenderloin', streets: [3], parks: []},
+      {city: 2, id: 3, name: 'Financial District', streets: [], parks: [3]}
+    ]});
+  });
+
+  server.get('/parks', function() {
+    assert.ok(true, 'Parks requested');
+    return json({parks: [
+      {neighborhood: 1, id: 1, name: 'Smithsonian National Zoological Park'},
+      {neighborhood: 1, id: 2, name: 'Meridian Hill Park'},
+      {neighborhood: 2, id: 3, name: 'Sue Bierman Park'},
     ]});
   });
 
   server.get('/streets', function() {
     assert.ok(true, 'Streets requested');
     return json({streets: [
-      {city: 1, id: 1, name: 'Adams Morgan', houses: [1, 2]},
-      {city: 2, id: 2, name: 'Tenderloin', houses: []},
-      {city: 2, id: 3, name: 'Financial District ', houses: []}
+      {neighborhood: 1, id: 1, name: 'California St.', houses: [1, 2]},
+      {neighborhood: 2, id: 2, name: 'Eddie St.', houses: []},
+      {neighborhood: 2, id: 3, name: 'Sacramento St.', houses: []}
     ]});
   });
 

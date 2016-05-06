@@ -4,6 +4,7 @@ const { attr, hasMany, belongsTo }  = DS;
 
 export default DS.Model.extend({
   name: attr('string'),
-  country: belongsTo('country'),
+  country: belongsTo('country', {inverse: 'cities'}),
+  capitalOf: belongsTo('country', {inverse: 'capital'}),
   neighborhoods: hasMany('neighborhood')
 });
