@@ -1,9 +1,9 @@
 import Ember from 'ember';
 
-const { RSVP } = Ember;
+const { RSVP, typeOf, isArray, get } = Ember;
 
 function getPromise(object, property) {
-  return RSVP.resolve(Ember.get(object, property));
+  return RSVP.resolve(get(object, property));
 }
 
 function preloadRecord(record, toPreload) {
@@ -11,7 +11,7 @@ function preloadRecord(record, toPreload) {
     return RSVP.resolve(record);
   }
 
-  switch(Ember.typeOf(toPreload)) {
+  switch (typeOf(toPreload)) {
     case 'string':
       return getPromise(record, toPreload).then(() => record);
     case 'array':
@@ -29,7 +29,7 @@ function preloadAll(records, toPreload) {
 
 function preload(thing, toPreload) {
   return RSVP.resolve(thing).then(() => {
-    return Ember.isArray(thing) ? preloadAll(thing, toPreload) : preloadRecord(thing, toPreload);
+    return isArray(thing) ? preloadAll(thing, toPreload) : preloadRecord(thing, toPreload);
   });
 }
 

@@ -1,5 +1,7 @@
 import DS from 'ember-data';
 
-export default DS.RESTAdapter.extend({
+const { RESTAdapter } = DS;
+
+export default RESTAdapter.extend({
   coalesceFindRequests: true
 });
