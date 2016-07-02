@@ -1,8 +1,8 @@
 import DS from 'ember-data';
 
-const { attr, hasMany, belongsTo }  = DS;
+const { attr, hasMany, belongsTo, Model }  = DS;
 
-export default DS.Model.extend({
+export default Model.extend({
   name: attr('string'),
   neighborhood: belongsTo('neighborhood'),
   houses: hasMany('house')
