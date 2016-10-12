@@ -1,4 +1,4 @@
-# ember-data-preload [![Build Status](https://travis-ci.org/levanto-financial/ember-data-preload.svg?branch=master)](https://travis-ci.org/levanto-financial/ember-data-preload) [![Ember Observer Score](https://emberobserver.com/badges/ember-data-preload.svg)](https://emberobserver.com/addons/ember-data-preload)
+# ember-data-preload [![Build Status](https://travis-ci.org/mike-north/ember-data-preload.svg?branch=master)](https://travis-ci.org/mike-north/ember-data-preload) [![Ember Observer Score](https://emberobserver.com/badges/ember-data-preload.svg)](https://emberobserver.com/addons/ember-data-preload)
 
 
 # Why?
