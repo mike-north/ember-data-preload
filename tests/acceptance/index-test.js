@@ -134,8 +134,8 @@ test('visiting /', function(assert) {
 
   visit('/');
 
-  andThen(function() {
-    assert.equal(this.$('.country').text(), 'USA', 'One country div on the screen');
+  andThen(() => {
+    assert.equal(find('.country').text(), 'USA', 'One country div on the screen');
     assert.equal(currentURL(), '/');
   });
 });
