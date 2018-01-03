@@ -1,34 +1,37 @@
-import Ember from 'ember';
-
-const { RSVP, typeOf, isArray, get } = Ember;
+import { resolve, all } from 'rsvp';
+import { get } from '@ember/object';
+import { isArray } from '@ember/array';
+import { typeOf } from '@ember/utils';
 
 function getPromise(object, property) {
-  return RSVP.resolve(get(object, property));
+  return resolve(get(object, property));
 }
 
 function preloadRecord(record, toPreload) {
   if (!record) {
-    return RSVP.resolve(record);
+    return resolve(record);
   }
 
   switch (typeOf(toPreload)) {
     case 'string':
       return getPromise(record, toPreload).then(() => record);
     case 'array':
-      return RSVP.all(toPreload.map((p) => preloadRecord(record, p))).then(() => record);
+      return all(toPreload.map(p => preloadRecord(record, p))).then(() => record);
     case 'object':
-      return RSVP.all(Object.keys(toPreload).map((p) =>
-        getPromise(record, p).then((data) => preload(data, toPreload[p])))).then(() => record);
-    default: throw 'Illegal Argument';
+      return all(Object.keys(toPreload).map(p => getPromise(record, p).then(data => preload(data, toPreload[p])))).then(
+        () => record
+      );
+    default:
+      throw 'Illegal Argument';
   }
 }
 
 function preloadAll(records, toPreload) {
-  return RSVP.all(records.map((record) => preload(record, toPreload)));
+  return all(records.map(record => preload(record, toPreload)));
 }
 
 function preload(thing, toPreload) {
-  return RSVP.resolve(thing).then(() => {
+  return resolve(thing).then(() => {
     return isArray(thing) ? preloadAll(thing, toPreload) : preloadRecord(thing, toPreload);
   });
 }
