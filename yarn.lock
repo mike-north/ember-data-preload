@@ -2593,9 +2593,9 @@ ember-runtime-enumerable-includes-polyfill@^2.0.0:
     ember-cli-babel "^6.9.0"
     ember-cli-version-checker "^2.1.0"
 
-ember-source@~2.18.0:
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-2.18.0.tgz#f61cf2701d8aa94a6adee6d47b1d5a73a4cef5f6"
+ember-source@~2.18.1:
+  version "2.18.1"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-2.18.1.tgz#bc02fc809f9e9b68d63e790aa3fac16bc6242bd5"
   dependencies:
     broccoli-funnel "^2.0.1"
     broccoli-merge-trees "^2.0.0"
