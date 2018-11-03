@@ -44,7 +44,7 @@
     "eslint-plugin-ember": "5.2.0",
     "eslint-plugin-node": "5.2.1",
     "greenkeeper-lockfile": "1.15.1",
-    "loader.js": "4.6.0"
+    "loader.js": "4.7.0"
   },
   "keywords": [
     "ember-addon",
