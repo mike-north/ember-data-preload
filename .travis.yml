@@ -51,3 +51,4 @@ jobs:
     env: EMBER_TRY_SCENARIO=ember-lts-2.12
   - env: EMBER_TRY_SCENARIO=ember-lts-2.16
   - env: EMBER_TRY_SCENARIO=ember-beta
+  - env: EMBER_TRY_SCENARIO=ember-canary
