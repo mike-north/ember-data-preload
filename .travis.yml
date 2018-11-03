@@ -20,15 +20,6 @@ env:
   global:
     # See https://git.io/vdao3 for details.
     - JOBS=1
-  matrix:
-    # we recommend new addons test the current and previous LTS
-    # as well as latest stable release (bonus points to beta/canary)
-    - EMBER_TRY_SCENARIO=ember-lts-2.12
-    - EMBER_TRY_SCENARIO=ember-lts-2.16
-    - EMBER_TRY_SCENARIO=ember-release
-    - EMBER_TRY_SCENARIO=ember-beta
-    - EMBER_TRY_SCENARIO=ember-canary
-
 matrix:
   fast_finish: true
   allow_failures:
@@ -60,4 +51,3 @@ jobs:
     env: EMBER_TRY_SCENARIO=ember-lts-2.12
   - env: EMBER_TRY_SCENARIO=ember-lts-2.16
   - env: EMBER_TRY_SCENARIO=ember-beta
-  - env: EMBER_TRY_SCENARIO=ember-canary
