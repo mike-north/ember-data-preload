@@ -20,10 +20,10 @@ env:
   global:
     # See https://git.io/vdao3 for details.
     - JOBS=1
-matrix:
-  fast_finish: true
-  allow_failures:
-    - env: EMBER_TRY_SCENARIO=ember-canary
+  matrix:
+    fast_finish: true
+    allow_failures:
+      - env: EMBER_TRY_SCENARIO=ember-canary
 
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
