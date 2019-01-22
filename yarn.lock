@@ -3619,10 +3619,10 @@ ember-cli-app-version@3.2.0:
     ember-cli-babel "^6.12.0"
     git-repo-version "^1.0.2"
 
-ember-cli-babel@7.3.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.3.0.tgz#a3a015e64080fecff59001341b1126fafb2ee187"
-  integrity sha512-cU7Du3jfQw/Ngv8AdLQFlq/EVVgMDU4PxblZByVzsFgs3ZGtVCfl0Gz96iZy7N/Ab+5D6j7A2SUJVbIxfcULBg==
+ember-cli-babel@7.4.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.4.0.tgz#8fc38a650629c0408adf50a46deef91fcd9d0f1d"
+  integrity sha512-nCEniuWcZMZ12uJopHAMEzj0J55fDEKVEr0adoYZNl7e3E6Pz4WyixyddhhzNa+WcOl9ZULYbH/1R0AL4Tyzjg==
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/plugin-transform-modules-amd" "^7.0.0"
