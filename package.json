@@ -19,7 +19,7 @@
   "author": "Mike North <michael.l.north@gmail.com> (http://mike.works)",
   "license": "MIT",
   "devDependencies": {
-    "@types/ember": "3.0.27",
+    "@types/ember": "3.0.28",
     "broccoli-asset-rev": "3.0.0",
     "ember-cli": "2.18.0",
     "ember-cli-app-version": "3.2.0",
