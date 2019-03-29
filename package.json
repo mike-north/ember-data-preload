@@ -59,7 +59,7 @@
     "persistence"
   ],
   "dependencies": {
-    "ember-cli-babel": "7.7.1"
+    "ember-cli-babel": "7.7.3"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
