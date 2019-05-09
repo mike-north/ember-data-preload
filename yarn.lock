@@ -4441,10 +4441,10 @@ ember-compatibility-helpers@^1.1.1:
     ember-cli-version-checker "^2.1.1"
     semver "^5.4.1"
 
-ember-data@3.9.2:
-  version "3.9.2"
-  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-3.9.2.tgz#62555aa39d15dcd41428fc85d51e3eb8a182f5b1"
-  integrity sha512-Y4ucKYM1Lye4lyQIOV6UF/xns1ouFxudTqqk181tGOFjY9u1+I+bQGQJyrDpT1qUdSIRE3RCoqz8kxt8BbEMDQ==
+ember-data@3.9.3:
+  version "3.9.3"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-3.9.3.tgz#6338ef6a13d30c5d9da56f2bc02bf7f832636b9f"
+  integrity sha512-t1qfuZeLeUYkhtR4V5FmhKoIkxXwT38CuRTEgyNXHeoMlDeRyj5TR06uPDIVEHJ4T3oOihx0dGZBQM4GKVrY5w==
   dependencies:
     "@ember/ordered-set" "^2.0.3"
     "@glimmer/env" "^0.1.7"
