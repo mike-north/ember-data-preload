@@ -9900,10 +9900,10 @@ escape-string-regexp@^1.0.0, escape-string-regexp@^1.0.2, escape-string-regexp@^
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-plugin-ember@11.0.1:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.0.1.tgz#08d6d616062a72b39a3867bf0197b9416b7c9847"
-  integrity sha512-V1ZpU8y6y+VzSxDpnK21wADYbNCmBUZwMpA0zDIyBPTGeiFqKa0zt05vhHWSE5jJLddXm6wdmW/UrMF3lUykrQ==
+eslint-plugin-ember@11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.0.2.tgz#cd3023db3ace5800c94058e5ff1c887f7ec1e85d"
+  integrity sha512-NdI1LQt6mH0SvKU1icVb+WYJPnITURMc+8WdqRYTtl+R39uZN8WhkJsGrkszAFjHHzcHTIeWFdJDPtb/ovv5tA==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     css-tree "^2.0.4"
