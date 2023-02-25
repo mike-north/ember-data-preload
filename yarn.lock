@@ -4312,44 +4312,44 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@ember-data/adapter@4.11.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/adapter/-/adapter-4.11.0.tgz#be3c5c7f92fd9c73e5035855b2b95942f0c2df94"
-  integrity sha512-wo/a1rKElWvA/vZv/5D2Lwn5qehJcDT/K08cqXiZmWxtGH2NV8dlVzcZb5gwwZ/Wf3CYI36xLWS+pm0oXOS0ww==
+"@ember-data/adapter@4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@ember-data/adapter/-/adapter-4.11.1.tgz#f7ba9ded33d6a052bfe9ae3290282292d3fe3b44"
+  integrity sha512-xe0w50krSOTB3AQCUhc5ESEej69bu+DRhOZS5YulQjYlyhLHge74EoflFpmpHcBWOznClvA0E3R/6yMvdTMI7Q==
   dependencies:
-    "@ember-data/private-build-infra" "4.11.0"
+    "@ember-data/private-build-infra" "4.11.1"
     "@ember/edition-utils" "^1.2.0"
     "@embroider/macros" "^1.10.0"
     ember-auto-import "^2.4.3"
     ember-cli-babel "^7.26.11"
     ember-cli-test-info "^1.0.0"
 
-"@ember-data/canary-features@4.11.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/canary-features/-/canary-features-4.11.0.tgz#67047d4589cc8b95c7e8bd003c1ebec9680a40f5"
-  integrity sha512-+kYMaNoX6ltqREDudyQlujbHf4lcXwiff5k7mAxw/GutiwHeMazhn3OCX1Q7OslCavFvODH7RLPEl/YiOEU/Zw==
+"@ember-data/canary-features@4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@ember-data/canary-features/-/canary-features-4.11.1.tgz#3f73957cb09390dd9bea069a57c5233709a81005"
+  integrity sha512-mOn3UpTaOuqcfyhY9X7rLy6tOGQDxqHXYpv1KV99zTYt/UhtaxIiGLT33nlhQz5QHLrM9aLvvyDJGuw0rGQUPQ==
   dependencies:
     "@embroider/macros" "^1.10.0"
     ember-cli-babel "^7.26.11"
 
-"@ember-data/debug@4.11.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/debug/-/debug-4.11.0.tgz#27e416a4e2ff9c025b7f18eca11f2d86fd606aec"
-  integrity sha512-KCzxWqih++WDu79PlFpGt9eJ3OtyjIoQmAeR1zqhBAoS3nBSs48Un5K5aDYL8LDdiX43cBypWWMokBeFrVyk2w==
+"@ember-data/debug@4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@ember-data/debug/-/debug-4.11.1.tgz#06e1dfebe84ab74959072909a5445bfe6e5fc34c"
+  integrity sha512-Mt3Up9aqM9NL6adn0+cuVpu2gqDogyTbvmnPsCHIVKl4EhbZEbNZgKUwczth9UMoa/XiXDgo73HH6W4T4otM3w==
   dependencies:
-    "@ember-data/private-build-infra" "4.11.0"
+    "@ember-data/private-build-infra" "4.11.1"
     "@ember/edition-utils" "^1.2.0"
     "@embroider/macros" "^1.10.0"
     ember-auto-import "^2.4.3"
     ember-cli-babel "^7.26.11"
 
-"@ember-data/model@4.11.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/model/-/model-4.11.0.tgz#eb653ec76194d4893b20fe2f0f44c59f70846aed"
-  integrity sha512-9r/afjA4r2KCaGqGBab29X+QWJZIE/JRrEDt42wfrxjpmP/Q4/xJtrUEeIltwHKXfr/BRpB2/hR/B5BotX3Nuw==
+"@ember-data/model@4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@ember-data/model/-/model-4.11.1.tgz#4297707d86351fc077e7e1d8e7b2599f1539cde4"
+  integrity sha512-KTkuofPiKhPBIcU63Pq1JHOol/Bq25uzXylkr6jgAloQyG4RC8NjrePzRh/oDEeXVtKbNP2sLjbYbxee4XxtxQ==
   dependencies:
-    "@ember-data/canary-features" "4.11.0"
-    "@ember-data/private-build-infra" "4.11.0"
+    "@ember-data/canary-features" "4.11.1"
+    "@ember-data/private-build-infra" "4.11.1"
     "@ember/edition-utils" "^1.2.0"
     "@embroider/macros" "^1.10.0"
     ember-auto-import "^2.4.3"
@@ -4360,15 +4360,15 @@
     ember-compatibility-helpers "^1.2.6"
     inflection "~2.0.0"
 
-"@ember-data/private-build-infra@4.11.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/private-build-infra/-/private-build-infra-4.11.0.tgz#e6aa16a6869a36d14a022cccee615a20aa26a331"
-  integrity sha512-ouGYt2pYU67YoaLhfxcPT0ICZZDlhJV978GxyZmbKZ2KWveoQO4Yhq06LPfI3gziES/XPHEXq5Cc25EXoA8o8A==
+"@ember-data/private-build-infra@4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@ember-data/private-build-infra/-/private-build-infra-4.11.1.tgz#490384514ebcf7b7005827665d04bc7ead488033"
+  integrity sha512-VYh1NZgBpd47g8cAMJYr7nDeRwAoeof1ynLhVVbi/xgcNPGB7VbzQiJuftDdnIqWWxtoHF3Ac/7N0pELBfrQYg==
   dependencies:
     "@babel/core" "^7.20.2"
     "@babel/plugin-transform-block-scoping" "^7.20.2"
     "@babel/runtime" "^7.20.1"
-    "@ember-data/canary-features" "4.11.0"
+    "@ember-data/canary-features" "4.11.1"
     "@ember/edition-utils" "^1.2.0"
     "@embroider/macros" "^1.10.0"
     babel-import-util "^1.3.0"
@@ -4394,13 +4394,13 @@
     semver "^7.3.8"
     silent-error "^1.1.1"
 
-"@ember-data/record-data@4.11.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/record-data/-/record-data-4.11.0.tgz#dd9555d008b94b89735a411b7fe7f235fba67ab2"
-  integrity sha512-vftHIzAZWCRex6pIr97YmfDY/ZS0z1KaKTMWhNYb5QRTfyr2reNEYnHn499wjL+7d6rNsE2VsjpcKBwaFBwAUw==
+"@ember-data/record-data@4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@ember-data/record-data/-/record-data-4.11.1.tgz#3576ef4a44c8a3221991b2c56511b76231e2879b"
+  integrity sha512-hbwBoDs2Q+hUDAx8n6Fet1eCKbsxYzlvE1FU1tmsi6QxPxyxevbZs1qvjrqj86++063EbR/u67f3L+LWzcXeBg==
   dependencies:
-    "@ember-data/canary-features" "4.11.0"
-    "@ember-data/private-build-infra" "4.11.0"
+    "@ember-data/canary-features" "4.11.1"
+    "@ember-data/private-build-infra" "4.11.1"
     "@ember/edition-utils" "^1.2.0"
     "@embroider/macros" "^1.10.0"
     ember-auto-import "^2.4.3"
@@ -4411,33 +4411,33 @@
   resolved "https://registry.yarnpkg.com/@ember-data/rfc395-data/-/rfc395-data-0.0.4.tgz#ecb86efdf5d7733a76ff14ea651a1b0ed1f8a843"
   integrity sha512-tGRdvgC9/QMQSuSuJV45xoyhI0Pzjm7A9o/MVVA3HakXIImJbbzx/k/6dO9CUEQXIyS2y0fW6C1XaYOG7rY0FQ==
 
-"@ember-data/serializer@4.11.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/serializer/-/serializer-4.11.0.tgz#147f8a6a1833cfde12f2f132943cf6941afd66ac"
-  integrity sha512-fHxpNPKgTANgeIBHHkMicLyllorWL883onJACQzjuorkvKP/2YLVsnEYqvjGP6o5NLXGG5A2SRK/5/dXQ+R5iA==
+"@ember-data/serializer@4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@ember-data/serializer/-/serializer-4.11.1.tgz#bc79222d50f41add270dd98a62da15928491e0c4"
+  integrity sha512-s2qqLkanCWuBcuS/1hoXZClejBsG1rbzK1JxORrJ72Jz3I9MYBpSngUL+g+5Nd8JdlY74OlDoAUGtzMzbMdrGw==
   dependencies:
-    "@ember-data/private-build-infra" "4.11.0"
+    "@ember-data/private-build-infra" "4.11.1"
     "@embroider/macros" "^1.10.0"
     ember-auto-import "^2.4.3"
     ember-cli-babel "^7.26.11"
     ember-cli-test-info "^1.0.0"
 
-"@ember-data/store@4.11.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/store/-/store-4.11.0.tgz#3957032f7c2e084fc834394b898a5a831c5b658d"
-  integrity sha512-WAhE662oVWy2v+EBEHlDiyPCIvlB3LGL6922Ec1/jYfWJcTuLCMvNV5C3K0J8Y1LXSg8Vo4jRl6gQ6zR40yZ8Q==
+"@ember-data/store@4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@ember-data/store/-/store-4.11.1.tgz#99ad1be27e7611df6314cdc946edf257c270a0f2"
+  integrity sha512-0nEYKwv1eQUesyYSRMy+m67AActJLrGkKVkTMpxP4YjJeSH+z4PttTR3+RuaCIpEUGbquxKmGeoTz3VkZO3Kzg==
   dependencies:
-    "@ember-data/canary-features" "4.11.0"
-    "@ember-data/private-build-infra" "4.11.0"
+    "@ember-data/canary-features" "4.11.1"
+    "@ember-data/private-build-infra" "4.11.1"
     "@embroider/macros" "^1.10.0"
     ember-auto-import "^2.4.3"
     ember-cached-decorator-polyfill "^1.0.1"
     ember-cli-babel "^7.26.11"
 
-"@ember-data/tracking@4.11.0":
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/tracking/-/tracking-4.11.0.tgz#eb8c919caa7c832ab4f2408fb5d61a3984c496d3"
-  integrity sha512-s75xSye86smklzoTKtgtnhrTXaf0ZGywJRTl+roRQh51OD0rx5FKxrwJofAtOa3InP6Y4awj7VbBWS8txhK+ww==
+"@ember-data/tracking@4.11.1":
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/@ember-data/tracking/-/tracking-4.11.1.tgz#5d9722ec9061d0a4fc581bd5105757c0e3b279e4"
+  integrity sha512-jnx3aS5q+qHokqWjRjXKZgp5Nq7n8Ht/+t1gqLUwe2Tcx/FyNwOb2VOtMqKg5eBWPSkWrlK3vl7cvlPoTGlcRA==
   dependencies:
     ember-cli-babel "^7.26.11"
 
@@ -9422,19 +9422,19 @@ ember-compatibility-helpers@^1.2.6:
     fs-extra "^9.1.0"
     semver "^5.4.1"
 
-ember-data@4.11.0:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-4.11.0.tgz#e8545d9289f68d879f6c4e83306655600e4b1426"
-  integrity sha512-PcgrQEsps+AClE9XmPmeTDf38TkVVYqq252MaP2wRjgVUkrLFAQgDb1Me7iWLkDcr03BPs3U1cjYaLnGR+sKmA==
+ember-data@4.11.1:
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-4.11.1.tgz#c27489db613960ee20a8d8c742cc57f7903459a9"
+  integrity sha512-Shetda6oH3uCCbgTqsoTfvuwVlSVNtMO/IAWOAO1SaVLW0MWGiOW6kK0hCcjNXSR8Q5FUaKpnXqRMJd15XpHjw==
   dependencies:
-    "@ember-data/adapter" "4.11.0"
-    "@ember-data/debug" "4.11.0"
-    "@ember-data/model" "4.11.0"
-    "@ember-data/private-build-infra" "4.11.0"
-    "@ember-data/record-data" "4.11.0"
-    "@ember-data/serializer" "4.11.0"
-    "@ember-data/store" "4.11.0"
-    "@ember-data/tracking" "4.11.0"
+    "@ember-data/adapter" "4.11.1"
+    "@ember-data/debug" "4.11.1"
+    "@ember-data/model" "4.11.1"
+    "@ember-data/private-build-infra" "4.11.1"
+    "@ember-data/record-data" "4.11.1"
+    "@ember-data/serializer" "4.11.1"
+    "@ember-data/store" "4.11.1"
+    "@ember-data/tracking" "4.11.1"
     "@ember/edition-utils" "^1.2.0"
     "@embroider/macros" "^1.10.0"
     "@glimmer/env" "^0.1.7"
