@@ -4903,10 +4903,10 @@
     "@types/htmlbars-inline-precompile" "*"
     "@types/rsvp" "*"
 
-"@types/ember@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-4.0.4.tgz#279eecf5628ef130d5a660d5aafc6cb0a84d3b41"
-  integrity sha512-MeByM2it6topE4s53+OGS0qHL3mvZIP2+U+eUlhN2w4d9oA6XzP9iaXROA2Eqxjmt4UAJiHHcR2uZ5TVcbEzfw==
+"@types/ember@4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-4.0.5.tgz#eefccdd44acf3213825a116e94730235568d865b"
+  integrity sha512-cTv/nW203GEPGsIJEL3bG6+5/Lmnkb0rNoITnHfkK1y7SPY1yg6K00VmE11LHkhQIt9BaMTFw7mqO53iexp7Hg==
   dependencies:
     "@types/ember__application" "*"
     "@types/ember__array" "*"
@@ -4924,7 +4924,6 @@
     "@types/ember__template" "*"
     "@types/ember__test" "*"
     "@types/ember__utils" "*"
-    "@types/htmlbars-inline-precompile" "*"
     "@types/rsvp" "*"
 
 "@types/ember__application@*":
