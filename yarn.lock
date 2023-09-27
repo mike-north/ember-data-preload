@@ -4943,10 +4943,10 @@
     "@types/htmlbars-inline-precompile" "*"
     "@types/rsvp" "*"
 
-"@types/ember@4.0.5":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-4.0.5.tgz#eefccdd44acf3213825a116e94730235568d865b"
-  integrity sha512-cTv/nW203GEPGsIJEL3bG6+5/Lmnkb0rNoITnHfkK1y7SPY1yg6K00VmE11LHkhQIt9BaMTFw7mqO53iexp7Hg==
+"@types/ember@4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-4.0.6.tgz#f4cef20576f17aed6f11f0adfcf9236c2dd807ca"
+  integrity sha512-5CAqPP20l1CWXT1E0NoiBnQUKqwuPSBq0JJVadEIX65CUzVz3zUIFvNoSl1erePwOeCIiQn9pHa568XwZnD6Mw==
   dependencies:
     "@types/ember__application" "*"
     "@types/ember__array" "*"
