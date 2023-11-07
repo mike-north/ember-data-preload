@@ -4917,10 +4917,10 @@
     "@types/htmlbars-inline-precompile" "*"
     "@types/rsvp" "*"
 
-"@types/ember@4.0.8":
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-4.0.8.tgz#f337cc2924479096b455abaaf8d20a699b4a1e72"
-  integrity sha512-G0mI5i5ZUBKV8ONQGhpwQVPW67cjPI+R4qi5PkSXcAvMXu6UOxlVtuk/heoEUeBRpfp+jynajFhVTnePJ2KLnA==
+"@types/ember@4.0.9":
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-4.0.9.tgz#3f2bccb68ce5bea6ea0efbc40bba6a2182ecefa3"
+  integrity sha512-Bv+yTAISbXlX2I5f9jdSZXf70Pv13KoNCVQsRw6/L/ayk70CGsHxFgAz8+5sK5yNwxx3taFbjil66kU7wk5zCQ==
   dependencies:
     "@types/ember__application" "*"
     "@types/ember__array" "*"
