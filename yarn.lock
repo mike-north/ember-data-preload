@@ -9434,10 +9434,10 @@ ember-qunit@^3.5.0:
     ember-cli-test-loader "^2.2.0"
     qunit "~2.6.0"
 
-ember-resolver@12.0.1:
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/ember-resolver/-/ember-resolver-12.0.1.tgz#33563e03d1e6d7aa3ab46aaba16eafd6288631d3"
-  integrity sha512-U+ZBdbEHMhmvcZly1xhZKwqeH5/igjT93p9bbD6x+mQVg7hm4jrsQA4jsxHu3BqgL5MmqOVx0gtAuYEWV1x2MQ==
+ember-resolver@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/ember-resolver/-/ember-resolver-13.0.0.tgz#2631d64eeda47869607e40cfbbbe46bddfc03826"
+  integrity sha512-CHt3RdHsjHnVA6wJY9Rw3n73RNfG7JBoqPAhlt4AD+leQPdY8QDKroWd9u5IM+YhCje46jhxEJAtQ733pFiS5Q==
   dependencies:
     ember-cli-babel "^7.26.11"
 
