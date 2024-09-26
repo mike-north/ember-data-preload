@@ -37,7 +37,7 @@
     "ember-data": "5.3.8",
     "ember-disable-prototype-extensions": "1.1.3",
     "ember-export-application-global": "2.0.1",
-    "ember-load-initializers": "2.1.2",
+    "ember-load-initializers": "3.0.0",
     "ember-resolver": "13.0.2",
     "ember-source": "5.11.1",
     "ember-sublime": "0.0.9",
