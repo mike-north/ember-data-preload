@@ -8752,10 +8752,10 @@ eslint-compat-utils@^0.5.1:
   dependencies:
     semver "^7.5.4"
 
-eslint-plugin-ember@12.7.0:
-  version "12.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-12.7.0.tgz#2871bb33f41a8083ad014da3445a07424fd9fe03"
-  integrity sha512-QkKzUzmWjSjscJLNYlkPv1ug5B5/Ec/7/MEEjDZxthzHO9VhnyMZ0shwvCztLTvB5D7LO67E7Zmpwb4YyBoFMA==
+eslint-plugin-ember@12.7.1:
+  version "12.7.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-12.7.1.tgz#610d4bb0803611d83917eb5f434089d66df7e21f"
+  integrity sha512-Z83EqJ8emWRt2kFpOAZHAgrsAuhDMVF6G3Ws5o7iaIJPKsiwzUW1MwL/uvXf8SMPP0XRvrLJWNZyxYludkGkfg==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     css-tree "^3.0.1"
