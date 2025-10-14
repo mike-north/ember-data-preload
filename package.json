@@ -39,7 +39,7 @@
     "ember-export-application-global": "2.0.1",
     "ember-load-initializers": "3.0.1",
     "ember-resolver": "13.1.1",
-    "ember-source": "6.7.0",
+    "ember-source": "6.8.0",
     "ember-sublime": "0.0.9",
     "eslint-plugin-ember": "12.7.4",
     "eslint-plugin-n": "17.23.1",
