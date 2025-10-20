@@ -3409,122 +3409,123 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@ember-data/adapter@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/adapter/-/adapter-5.7.0.tgz#46b38a1f488f894522220372c54b3d5e61d5e6ce"
-  integrity sha512-H0EWf7CNlpxwJxygFA4qoRNdpuHHwxXrY94YXdd5kh/wDUn5vNke//tHiVPXJJPAM7Ndgsq4gw3mSDP1Uhg1hQ==
+"@ember-data/adapter@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/adapter/-/adapter-5.8.0.tgz#ac920a3a3c7bfb4a5cdce304c71526d62eba4667"
+  integrity sha512-loXvPVVQOprobBhr60chwB1dqJ4LpY5T1yRYoygibNlydoDp8kJE4ppR0hN8W7onkUVDaTfYKX9UX/3nFjmMQA==
   dependencies:
     "@ember/edition-utils" "1.2.0"
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
-    "@warp-drive/legacy" "5.7.0"
-    "@warp-drive/utilities" "5.7.0"
+    "@warp-drive/core" "5.8.0"
+    "@warp-drive/legacy" "5.8.0"
+    "@warp-drive/utilities" "5.8.0"
     ember-cli-path-utils "^1.0.0"
     ember-cli-string-utils "^1.1.0"
     ember-cli-test-info "^1.0.0"
 
-"@ember-data/debug@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/debug/-/debug-5.7.0.tgz#54d3165e17356294d96ff275456b0e337d168bf7"
-  integrity sha512-BzIMWgxBdELOEXasipIFFsmsG/QeI26QFl8q+xG4VZ1LZx1KAMgJbC5fBQq4B3Uy/2ajxmtdPVd/C/EBdZPtJw==
+"@ember-data/debug@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/debug/-/debug-5.8.0.tgz#6ca7b70ac42d4a77694999edb7f931be9cee1370"
+  integrity sha512-nNKy0wvD8Bzqk7GIij9qIbsVGiCRwVWMV7UNTr3BcZqiSSKyu6D+jeolcWYvKlz1XojDCLe5/uRUk4sE2j+9jA==
   dependencies:
     "@ember/edition-utils" "^1.2.0"
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
+    "@warp-drive/core" "5.8.0"
+    "@warp-drive/utilities" "5.8.0"
 
-"@ember-data/graph@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/graph/-/graph-5.7.0.tgz#a42164c7a80f4b5f1b7bf28874d51dbe0fa38d1a"
-  integrity sha512-63ggMRciYvmQ8w2oZtGHVaaFhfO6J3JRmyOSl1SQNhmlOjBEOHoDSAJJCgoo+xXwAzmt92y05T7PYujC7C7ltA==
+"@ember-data/graph@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/graph/-/graph-5.8.0.tgz#84231535292ea0e73143471b8b1f85c3560c54d8"
+  integrity sha512-p5A0AHtTbNvCLoKEIGfU4ex4jMIRhO0vMrsEy0wmJHLW6cosE4FQMEPUka/9v2HwJ+1N81T/cPTqS5h7Y+NFRw==
   dependencies:
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
+    "@warp-drive/core" "5.8.0"
 
-"@ember-data/json-api@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/json-api/-/json-api-5.7.0.tgz#2ce25c274e746e1114d4d4ee9795c25c66162382"
-  integrity sha512-U+XC2yugLgRqehS8z2a1Z5aj0BhBwFwSQeJOvscoHbN+NjMbt5ixeA14S70oTOk0Umc+u0loHY+RhvqFuat6Wg==
+"@ember-data/json-api@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/json-api/-/json-api-5.8.0.tgz#84148235664e77cd1c69cc4c953934c98e65399e"
+  integrity sha512-E1OY1UAELXgl+Li2eSzceUPteWz1CMls2GV65C6EI7Bn0pJBjPlj06qbjcYnGiOzvjZKTfYqmdKTvNsouW93DQ==
   dependencies:
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
-    "@warp-drive/json-api" "5.7.0"
-    "@warp-drive/utilities" "5.7.0"
+    "@warp-drive/core" "5.8.0"
+    "@warp-drive/json-api" "5.8.0"
+    "@warp-drive/utilities" "5.8.0"
 
-"@ember-data/legacy-compat@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/legacy-compat/-/legacy-compat-5.7.0.tgz#df4f87523bdae970a054ff98b87013eec4f79ad7"
-  integrity sha512-dDkKd9xRUAUbZ6WHXtETRrroAVFQy/d1xWyhvoUP4Yg8JzLFd8n0tqzGhD3ehXVymWbtxU3fKHkiPZljEBGILA==
+"@ember-data/legacy-compat@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/legacy-compat/-/legacy-compat-5.8.0.tgz#affc0733eaef7022b8df92d56c48f9ac20e8330a"
+  integrity sha512-f4bDqpMZrCVMXyj+vT5S9hyBLzbrbvEAs+1B5iuDwOiXssYmBUnu5pnlb2hhvCDaFCuZ0XevL8tXLG/QuFM35g==
   dependencies:
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
-    "@warp-drive/legacy" "5.7.0"
-    "@warp-drive/utilities" "5.7.0"
+    "@warp-drive/core" "5.8.0"
+    "@warp-drive/legacy" "5.8.0"
+    "@warp-drive/utilities" "5.8.0"
 
-"@ember-data/model@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/model/-/model-5.7.0.tgz#6e705e4e90907757c755d8c5098df38a1f7f9138"
-  integrity sha512-ew82jiFtYv3AmO+DLxkVmCh0YXzlu6gU1WyjjngBkJFKa3yRs3wc1tyX+36mg9dYmzQogUlb9/37PoQ8qMrJqg==
+"@ember-data/model@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/model/-/model-5.8.0.tgz#19fb500d6321281bd158978f897718e724e04898"
+  integrity sha512-dfdXJkD/q4HowkZaRdv0cwVu+cP9/4wK0fglXOtNjJmxKXJQ3be5e9ged9SYFKNKALSbNIU6FuFhWm1EA0N3LA==
   dependencies:
     "@ember/edition-utils" "^1.2.0"
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
-    "@warp-drive/legacy" "5.7.0"
-    "@warp-drive/utilities" "5.7.0"
+    "@warp-drive/core" "5.8.0"
+    "@warp-drive/legacy" "5.8.0"
+    "@warp-drive/utilities" "5.8.0"
     ember-cli-string-utils "^1.1.0"
     ember-cli-test-info "^1.0.0"
     inflection "~3.0.2"
 
-"@ember-data/request-utils@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/request-utils/-/request-utils-5.7.0.tgz#30a80270af53d7cf32bc0e07da2a20f7cfb1b6d9"
-  integrity sha512-P6Gh4cYhezcz8XkPC8hWAlu5+yDq0ysTwoBPgLWv5XqQpGBfgj5FRxD1L8LW2JcM44syHJWPYK+hTzRcnRQAUQ==
+"@ember-data/request-utils@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/request-utils/-/request-utils-5.8.0.tgz#06f6be2c3ad3d466f3a218b6e1f6b3019f8ffc54"
+  integrity sha512-xTNh3OMEAZsf5AjC6HZ12onHXu08VszV70xINYRbP5V5nQLhyXkUnPBn/GfTcjFoOqnSGdNGOmbHQL2HbiTqFg==
   dependencies:
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
-    "@warp-drive/utilities" "5.7.0"
+    "@warp-drive/core" "5.8.0"
+    "@warp-drive/utilities" "5.8.0"
 
-"@ember-data/request@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/request/-/request-5.7.0.tgz#886098d201b5ed1e692f4afe606ddd3d870c5ce3"
-  integrity sha512-Yr0dDnC+AY0x9Ek8Lfk/2kK+X4LW4GEfie3RmrGZyQRFLeryE2DiJdBXITM/a/YLnu98+kRa0BPDVcHBOgpLVw==
+"@ember-data/request@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/request/-/request-5.8.0.tgz#a4c350dfffe0f0c23974baf04e7a0e608e3f640a"
+  integrity sha512-ys17D2XZAUMihwLR7rQWrgMgZ0MDvrtz8gcGeaLVurC/MEhE9O5iPchUMD6T9okoKOdgRgeQYh88Sn0cl0jVtQ==
   dependencies:
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
+    "@warp-drive/core" "5.8.0"
 
 "@ember-data/rfc395-data@^0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@ember-data/rfc395-data/-/rfc395-data-0.0.4.tgz#ecb86efdf5d7733a76ff14ea651a1b0ed1f8a843"
   integrity sha512-tGRdvgC9/QMQSuSuJV45xoyhI0Pzjm7A9o/MVVA3HakXIImJbbzx/k/6dO9CUEQXIyS2y0fW6C1XaYOG7rY0FQ==
 
-"@ember-data/serializer@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/serializer/-/serializer-5.7.0.tgz#7adbe2ea0a042821aa133b45b75bc05c98505bd0"
-  integrity sha512-dAJgryzTYrx17veCWfHoBi2Zc5KYKuewBIZrUPhSTb0AGrsa1pfi37FoaHNPhC9FLU3pKV20z8HC4zIISU2JRA==
+"@ember-data/serializer@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/serializer/-/serializer-5.8.0.tgz#71b29cf687619f1fabf37799cd8c033482debc48"
+  integrity sha512-HsfX8pWU9Q6NjKpCvttWsOLnzFISAIP/CJ0BjgDixRG9lWCju68gPJvdO284yI6Nf78NIZoJ6S7GK+iyLBYPlQ==
   dependencies:
     "@ember/edition-utils" "1.2.0"
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
-    "@warp-drive/legacy" "5.7.0"
-    "@warp-drive/utilities" "5.7.0"
+    "@warp-drive/core" "5.8.0"
+    "@warp-drive/legacy" "5.8.0"
+    "@warp-drive/utilities" "5.8.0"
     ember-cli-path-utils "^1.0.0"
     ember-cli-string-utils "^1.1.0"
     ember-cli-test-info "^1.0.0"
 
-"@ember-data/store@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/store/-/store-5.7.0.tgz#e907b628a146fc52c4713e8fd458d549dff4e5e9"
-  integrity sha512-Kw5kbfHNFgOgIepEfmDIYLi5CNiLKjxtx0vQkNtXvHD1PCBPIpnoFZdiTs2NnnKP1obedgU59us6PTE1G+AOHg==
+"@ember-data/store@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/store/-/store-5.8.0.tgz#835dfad3925a686fa937e23dac5856c2995c50db"
+  integrity sha512-vlycjD6PGzqmtdUbgUhQF2e3v+fniH+69uE2UAtpI3RHu9Al6TwoNAmWzK7U/7VC6E8bRN+EXNyzuX3ho+mybw==
   dependencies:
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
+    "@warp-drive/core" "5.8.0"
 
-"@ember-data/tracking@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-data/tracking/-/tracking-5.7.0.tgz#41e39030c6d0fba273aeb6b96b2f2bdab3fd0067"
-  integrity sha512-vXF/fMem8T08XVVlg3mXNYHyk4g+kYkzXMUNuxhqCOO/0w4RyASDpMfPdZCIAJLvRrW+C3pVnZXE87J1reH9WQ==
+"@ember-data/tracking@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@ember-data/tracking/-/tracking-5.8.0.tgz#b3d30fe6f6147c2528d29ffbb04d78d4d8b2cfa8"
+  integrity sha512-tDLLMFD+oH9N83S4A4hLxWjG0ohomKnHDU4s9iYUhVCX0n3S8UnYuxmiBjVrjLKhWD83VJBt7o2VQ4vC0pY9gQ==
   dependencies:
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
+    "@warp-drive/core" "5.8.0"
 
 "@ember-tooling/blueprint-blueprint@^0.2.1":
   version "0.2.1"
@@ -4371,60 +4372,61 @@
   resolved "https://registry.yarnpkg.com/@types/symlink-or-copy/-/symlink-or-copy-1.2.0.tgz#4151a81b4052c80bc2becbae09f3a9ec010a9c7a"
   integrity sha512-Lja2xYuuf2B3knEsga8ShbOdsfNOtzT73GyJmZyY7eGl2+ajOqrs8yM5ze0fsSoYwvA6bw7/Qr7OZ7PEEmYwWg==
 
-"@warp-drive/build-config@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/build-config/-/build-config-5.7.0.tgz#1cd6004f213cc125205c1179604394320bbb5263"
-  integrity sha512-lCltr4xG9jQmBRlM8+gMJ06o3pnOHs7uDFdIX36dIczKCFjfTvaSVbYf+n/VLEAT4GyaMoQU11xkY1zHa5XucA==
+"@warp-drive/build-config@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/build-config/-/build-config-5.8.0.tgz#ba0a8ad3502ef3a566333e8fc233b23af747c718"
+  integrity sha512-p0Cgf/9qO9Ocv33RbsHhKTyQpiw+8FKHFOSvruAUrjtZCXzniqfnzLDv12XtufV7HIKe2aN5HCip6r5Q+xk6fg==
   dependencies:
     "@embroider/addon-shim" "^1.10.0"
     "@embroider/macros" "^1.18.1"
     babel-import-util "^2.1.1"
+    babel-plugin-debug-macros "^2.0.0"
     semver "^7.7.2"
 
-"@warp-drive/core-types@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/core-types/-/core-types-5.7.0.tgz#b439bbef2473794ec1d327383f6d8e22b03956c4"
-  integrity sha512-M+bM7IWJVWP3WaRllhII752Q5IAdUh74eiRzhINm8rOBvpGteUaxYgOABXIiYE4rMm8ukTKy08aNSALs+Y+15g==
+"@warp-drive/core-types@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/core-types/-/core-types-5.8.0.tgz#1fb76ffabcdd3ae1b062993da183839e6e21cee1"
+  integrity sha512-jJRDRcJBiIvI27HRq/E9PVsXEAay2iWU27AzQ5zsU6mugo0cCgIC7F0aPd1Wfjq81j6ooL/tIg05cJ9TZJ32kA==
   dependencies:
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
+    "@warp-drive/core" "5.8.0"
 
-"@warp-drive/core@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/core/-/core-5.7.0.tgz#57130ec35da0949ae89ead8ae317a7ef9da41f6a"
-  integrity sha512-eaYcX5rtRQLWhU7b1RuSSri/jatHwZM09VPXxQgT9BnXlB5nbg008osdAQ/SwtArGLr0P6DeGiD1MazqSh1M2w==
+"@warp-drive/core@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/core/-/core-5.8.0.tgz#5828a46c546137efaebba41f9f1b70a7db5438d5"
+  integrity sha512-DkY8AjaeiMtijz9Ho1W3wKlaWGbhK7gOaOCXdRzCqNyKiwM+nOn2dkS/8uib5lpuv4m7QYgL2oF4uAWlINUFDA==
   dependencies:
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/build-config" "5.7.0"
+    "@warp-drive/build-config" "5.8.0"
 
-"@warp-drive/ember@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/ember/-/ember-5.7.0.tgz#a2b61830414e82bf026ac22b8dfb7994111f0591"
-  integrity sha512-oCnEsphvDMEd9JfJzVTijg+qWQrQl5qNKEEzt5Mencp62pj3DSKFphsWsMRfSk7CedIN792NZDxxJHXqhwtBvA==
+"@warp-drive/ember@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/ember/-/ember-5.8.0.tgz#5fc08ed5b79ebb0ce4896e3b765530e3d8b4c8e7"
+  integrity sha512-+V1KUZpsezyc2oMB68DGOYNMsvZEnWJ1cjnTO0OhqtId4viLSW9vPKzSbJ8MLz3TcyCepj4Y6b17CJj6Ksy9EA==
   dependencies:
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
+    "@warp-drive/core" "5.8.0"
 
-"@warp-drive/json-api@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/json-api/-/json-api-5.7.0.tgz#8a8b683d09745abd372d98d7f8e093b87dc15748"
-  integrity sha512-87EHRqQwWO3PdNRr4/Hr7c0mgK47ksc/fiEH8sN4WTW1keWF4t7iUYM3MQZVsBJj4MY3m0fKHSIwFHX4fOcEwg==
+"@warp-drive/json-api@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/json-api/-/json-api-5.8.0.tgz#3581dd888b56c23dd1c4eaaa7059f1760d41752c"
+  integrity sha512-aJKQx2T51d/neaz8clGe/uC7nHm+8A+ho7OMou2R1yYJuIXNvYYXvTPErA/kABg0RDfAoafqdphe+3Tviut1cA==
   dependencies:
     "@embroider/macros" "^1.18.1"
     fuse.js "7.1.0"
     json-to-ast "2.1.0"
 
-"@warp-drive/legacy@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/legacy/-/legacy-5.7.0.tgz#ca3e2281f197f44a3face9f695dd59fc04c2eb26"
-  integrity sha512-JRNtAD5Y+yZqJi49Ui0hKzLy8HaVVNuBaSw1eQZhWbK6KbdsJbTcNX+RHR5jIeyx8yrmHuTyfS0DrdRQtMJFfg==
+"@warp-drive/legacy@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/legacy/-/legacy-5.8.0.tgz#f4f8925cc4a99fb549e4cffffcbe292eac1a002e"
+  integrity sha512-fWCZUW6oZ3AL3zaeI3fC3YTfHe+lkgIinSr4ip79nEPE8RKfuSbB8OLKv6AnBy6fJreI+Ts6+wgxkqMJxIIY/g==
   dependencies:
     "@embroider/macros" "^1.18.1"
 
-"@warp-drive/utilities@5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@warp-drive/utilities/-/utilities-5.7.0.tgz#1e25bbf43b8680fac02776226b9ebb7d3bc55ea8"
-  integrity sha512-3IlqmZ3eAFxz+iUNflipJ6/8fsv7oro7Cn4xN3o0l7TbiUTm2otgikHMjR45kAwuFZ/jNxvOMWR5yIb3OW+NeQ==
+"@warp-drive/utilities@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@warp-drive/utilities/-/utilities-5.8.0.tgz#cc9074956445121334f733213b7d15a9d1fdacd8"
+  integrity sha512-ctVFGylQJ0gZjssmFxPvoOcJ2kM/F5FqsWnvIqn5l30gVxISonm7xU3UoQ4bXpA5VXzaQ25PFFwGobdZOJELQA==
   dependencies:
     "@embroider/macros" "^1.18.1"
 
@@ -5138,7 +5140,7 @@ babel-import-util@^2.0.0:
   resolved "https://registry.yarnpkg.com/babel-import-util/-/babel-import-util-2.0.0.tgz#99a2e7424bcde01898bc61bb19700ff4c74379a3"
   integrity sha512-pkWynbLwru0RZmA9iKeQL63+CkkW0RCP3kL5njCtudd6YPUKb5Pa0kL4fb3bmuKn2QDBFwY5mvvhEK/+jv2Ynw==
 
-babel-import-util@^2.1.1:
+babel-import-util@^2.0.2, babel-import-util@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/babel-import-util/-/babel-import-util-2.1.1.tgz#0f4905fe899abfb8cd835dd52f3df1966d1ffbb0"
   integrity sha512-3qBQWRjzP9NreSH/YrOEU1Lj5F60+pWSLP0kIdCWxjFHH7pX2YPHIxQ67el4gnMNfYoDxSDGcT0zpVlZ+gVtQA==
@@ -5192,6 +5194,14 @@ babel-plugin-debug-macros@^0.3.4:
   integrity sha512-wfel/vb3pXfwIDZUrkoDrn5FHmlWI96PCJ3UCDv2a86poJ3EQrnArNW5KfHSVJ9IOgxHbo748cQt7sDU+0KCEw==
   dependencies:
     semver "^5.3.0"
+
+babel-plugin-debug-macros@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-debug-macros/-/babel-plugin-debug-macros-2.0.0.tgz#41ec76b5b7aa93f872ff0a0488d1c233d7c76c46"
+  integrity sha512-7ZaLtXIY01PAPhLyjV3OACePnl+X5iQO7F4O/sOJHTfMf/36zyu14uVUxNiZmOUntYBsyT/VVplf1LrH6NcwvQ==
+  dependencies:
+    babel-import-util "^2.0.2"
+    semver "^7.6.0"
 
 babel-plugin-dynamic-import-node@^2.3.3:
   version "2.3.3"
@@ -8475,30 +8485,30 @@ ember-cli@6.8.0:
     workerpool "^9.2.0"
     yam "^1.0.0"
 
-ember-data@5.7.0:
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-5.7.0.tgz#24f74160aa1aead001c44aca7928e5421f7b1aad"
-  integrity sha512-KPs+p5/F/YSIFsc0hYg+kaER8XoMhAzy+gOVAJhdtbFrhn3oftTogcAMTGo/glUpXnzwt8dSkN+GfNMWMPmSlw==
+ember-data@5.8.0:
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-5.8.0.tgz#a2fb5ad37a1db60d5a1f8ad0d462d204afe55ad6"
+  integrity sha512-VRb3fh2x/9G9kXONQ6YHTYjAFGO7q5R/2M1ZAApLXecuyEBm0oT5SsrWfWlDyZCyGsd3jNQV17Vd0gklcB9pRg==
   dependencies:
-    "@ember-data/adapter" "5.7.0"
-    "@ember-data/debug" "5.7.0"
-    "@ember-data/graph" "5.7.0"
-    "@ember-data/json-api" "5.7.0"
-    "@ember-data/legacy-compat" "5.7.0"
-    "@ember-data/model" "5.7.0"
-    "@ember-data/request" "5.7.0"
-    "@ember-data/request-utils" "5.7.0"
-    "@ember-data/serializer" "5.7.0"
-    "@ember-data/store" "5.7.0"
-    "@ember-data/tracking" "5.7.0"
+    "@ember-data/adapter" "5.8.0"
+    "@ember-data/debug" "5.8.0"
+    "@ember-data/graph" "5.8.0"
+    "@ember-data/json-api" "5.8.0"
+    "@ember-data/legacy-compat" "5.8.0"
+    "@ember-data/model" "5.8.0"
+    "@ember-data/request" "5.8.0"
+    "@ember-data/request-utils" "5.8.0"
+    "@ember-data/serializer" "5.8.0"
+    "@ember-data/store" "5.8.0"
+    "@ember-data/tracking" "5.8.0"
     "@ember/edition-utils" "^1.2.0"
     "@embroider/macros" "^1.18.1"
-    "@warp-drive/core" "5.7.0"
-    "@warp-drive/core-types" "5.7.0"
-    "@warp-drive/ember" "5.7.0"
-    "@warp-drive/json-api" "5.7.0"
-    "@warp-drive/legacy" "5.7.0"
-    "@warp-drive/utilities" "5.7.0"
+    "@warp-drive/core" "5.8.0"
+    "@warp-drive/core-types" "5.8.0"
+    "@warp-drive/ember" "5.8.0"
+    "@warp-drive/json-api" "5.8.0"
+    "@warp-drive/legacy" "5.8.0"
+    "@warp-drive/utilities" "5.8.0"
 
 ember-disable-prototype-extensions@1.1.3:
   version "1.1.3"
