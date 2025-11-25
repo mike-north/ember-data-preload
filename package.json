@@ -25,7 +25,7 @@
     "ember-cli-app-version": "7.0.0",
     "ember-cli-dependency-checker": "3.3.3",
     "ember-cli-eslint": "5.1.0",
-    "ember-cli-htmlbars": "6.3.0",
+    "ember-cli-htmlbars": "7.0.0",
     "ember-cli-htmlbars-inline-precompile": "3.0.2",
     "ember-cli-inject-live-reload": "2.1.0",
     "ember-cli-pretender": "4.0.0",
