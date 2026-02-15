@@ -42,7 +42,7 @@
     "ember-source": "6.10.1",
     "ember-sublime": "0.0.9",
     "eslint-plugin-ember": "12.7.5",
-    "eslint-plugin-n": "17.23.2",
+    "eslint-plugin-n": "17.24.0",
     "greenkeeper-lockfile": "1.15.1",
     "loader.js": "4.7.0"
   },
